@@ -19,14 +19,11 @@ void programma()
 
     algoritmo_p = scelta();
 
-    cout << algoritmo_p << endl;
-
     bool flag = false;
     ifstream mioFile("algoritmi.txt");
 
     if(mioFile.is_open())
     {
-        cout << "Dio merda"<<endl;
         while(getline(mioFile, algoritmo_s))
         {
             if(algoritmo_s== algoritmo_p || flag == true)
