@@ -31,9 +31,9 @@ void programma()
         {
             if(algoritmo_s== algoritmo_p || flag == true)
             {
+                if(algoritmo_s == "___") break;
                 flag = true;
                 cout << algoritmo_s << endl;
-                if(algoritmo_s == "___") break;
             }
             if(algoritmo_s == "___") break;
         }
