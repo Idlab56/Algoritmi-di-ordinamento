@@ -1,0 +1,2 @@
+il programma riceve il nome di un algoritmo di ordinamento, tramite i file sequenziali, entra nel file.txt e lo cerca.
+appena trovato  stamperà la spiegazione e codice
