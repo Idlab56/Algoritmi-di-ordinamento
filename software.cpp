@@ -32,7 +32,7 @@ void programma()
                 flag = true;
                 cout << algoritmo_s << endl;
             }
-            if(algoritmo_s == "___") break;
+            if(algoritmo_s == "___" && flag == true) break;
         }
         mioFile.close();
     }
